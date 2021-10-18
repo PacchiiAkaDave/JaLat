@@ -1,0 +1,26 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">JaLaT</string>
+
+
+    <string name="romaji">romaji</string>
+    <string name="japanese">japanese</string>
+    <string name="katakana">katakana</string>
+    <string name="hiragana">hiragana</string>
+    <string name="kanji">kanji</string>
+    <string name="which_font">Which font?</string>
+    <string name="next">next</string>
+    <string name="quit">quit</string>
+    <string name="confirm">confirm</string>
+    <string name="which_language">Which language?</string>
+    <string name="which_mode">Which mode?</string>
+    <string name="play">play</string>
+    <string name="quiz">quiz</string>
+    <string name="input">input</string>
+    <string name="highscore">Highscore</string>
+    <string name="en">En</string>
+    <string name="words">words</string>
+    <string name="words_or_syllables">Words or syllables?</string>
+    <string name="syllables">syllables</string>
+
+
+</resources>

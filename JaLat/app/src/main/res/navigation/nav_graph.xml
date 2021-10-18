@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    tools:ignore="UnusedNavigation"
+    app:startDestination="@id/sylOrWordFragment">
+    <fragment
+        android:id="@+id/languageFragment"
+        android:name="com.example.jalat.fragments.LanguageFragment"
+        android:label="fragment_language"
+        tools:layout="@layout/fragment_language" >
+        <action
+            android:id="@+id/action_languageFragment_to_fontFragment"
+            app:destination="@id/fontFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/showHighscore"
+        android:name="com.example.jalat.fragments.ShowHighscore"
+        android:label="fragment_show_highscore"
+        tools:layout="@layout/fragment_show_highscore" />
+    <fragment
+        android:id="@+id/fontFragment"
+        android:name="com.example.jalat.fragments.FontFragment"
+        android:label="fragment_font"
+        tools:layout="@layout/fragment_font" >
+        <action
+            android:id="@+id/action_fontFragment_to_quizFragment"
+            app:destination="@id/quizFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/quizFragment"
+        android:name="com.example.jalat.fragments.QuizFragment"
+        android:label="fragment_quiz"
+        tools:layout="@layout/fragment_quiz" >
+        <action
+            android:id="@+id/action_quizFragment_to_gameFragment"
+            app:destination="@id/gameFragment" />
+        <action
+            android:id="@+id/action_quizFragment_to_inputFragment"
+            app:destination="@id/inputFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/gameFragment"
+        android:name="com.example.jalat.fragments.GameFragment"
+        android:label="fragment_game"
+        tools:layout="@layout/fragment_game" >
+        <action
+            android:id="@+id/action_gameFragment_to_sylOrWordFragment"
+            app:destination="@id/sylOrWordFragment" />
+        <action
+            android:id="@+id/action_gameFragment_to_insertFragment"
+            app:destination="@id/insertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.jalat.fragments.InputFragment"
+        android:label="fragment_input"
+        tools:layout="@layout/fragment_input" >
+        <action
+            android:id="@+id/action_inputFragment_to_sylOrWordFragment"
+            app:destination="@id/sylOrWordFragment" />
+        <action
+            android:id="@+id/action_inputFragment_to_insertFragment"
+            app:destination="@id/insertFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/sylOrWordFragment"
+        android:name="com.example.jalat.fragments.SylOrWordFragment"
+        android:label="fragment_syl_or_word"
+        tools:layout="@layout/fragment_syl_or_word" >
+        <action
+            android:id="@+id/action_sylOrWordFragment_to_languageFragment"
+            app:destination="@id/languageFragment" />
+        <action
+            android:id="@+id/action_sylOrWordFragment_to_showHighscore"
+            app:destination="@id/showHighscore" />
+    </fragment>
+    <fragment
+        android:id="@+id/insertFragment"
+        android:name="com.example.jalat.fragments.InsertFragment"
+        android:label="fragment_insert"
+        tools:layout="@layout/fragment_insert" >
+        <action
+            android:id="@+id/action_insertFragment_to_sylOrWordFragment"
+            app:destination="@id/sylOrWordFragment" />
+    </fragment>
+</navigation>

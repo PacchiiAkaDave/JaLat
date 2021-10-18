@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="romaji">romaji</string>
+    <string name="japanese">japanisch</string>
+    <string name="katakana">katakana</string>
+    <string name="hiragana">hiragana</string>
+    <string name="kanji">kanji</string>
+    <string name="which_font">Welche Schrift?</string>
+    <string name="next">weiter</string>
+    <string name="quit">beenden</string>
+    <string name="confirm">bestaetigen</string>
+    <string name="which_language">Welche Sprache?</string>
+    <string name="which_mode">Welcher Modus?</string>
+    <string name="play">spielen</string>
+    <string name="quiz">quiz</string>
+    <string name="input">Eingabe</string>
+    <string name="highscore">Bestenliste</string>
+    <string name="en">De</string>
+    <string name="words">woerter</string>
+    <string name="words_or_syllables">Woerter oder Silben?</string>
+    <string name="syllables">Silben</string>
+</resources>
